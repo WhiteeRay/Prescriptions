@@ -33,6 +33,6 @@ public class PrescriptionRequestDto {
     private LocalDate issueDate;
 
     @NotNull(message = "Valid until date is required")
-    @PastOrPresent(message = "Valid until date must be in the future.")
+    @Future(message = "Valid until date must be in the future.")
     private LocalDate validUntil;
 }

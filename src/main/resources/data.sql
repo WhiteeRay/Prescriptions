@@ -1,6 +1,6 @@
 
-INSERT INTO patients (id, firstName, lastName ) VALUES (1, 'Aknur', 'Mazhitova');
-INSERT INTO patients (id, firstName, lastName ) VALUES (2, 'Gulzira', 'Nazaralina');
+INSERT INTO patients (id, first_name, last_name ) VALUES (1, 'Aknur', 'Mazhitova');
+INSERT INTO patients (id, first_name, last_name ) VALUES (2, 'Gulzira', 'Nazaralina');
 
 INSERT INTO prescriptions (id, patient_id, doctor_name, medication, dosage, issue_date, valid_until)
 VALUES (1, 1, 'Dr. Aiym', 'Amoxicillin', '500mg twice daily', '2026-01-01', '2026-01-31');
